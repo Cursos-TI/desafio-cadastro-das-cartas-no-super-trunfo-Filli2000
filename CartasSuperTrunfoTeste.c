@@ -6,13 +6,9 @@ int main(){
  printf ("  Bem-vindo ao Super Trunfo 2000!\n Insira as informações solicitadas no prompt com a cidade Brasileira de sua escolha abaixo:\n");
 
      //Variaveis da Carta 01 - para armazenar as informações das cartas, sera usado posteriormente.
-    char Estado1;
-    char Código1;
-    char Nome1;
-    int População1;
-    int Turisticos1;
-    float Area1;
-    float PIB1;
+    char Estado1, Nome1;
+    int Código1, População1, Turisticos1;
+    float Area1, PIB1;
 
  //Primeira carta - comando "&" para mudar as informações contidas nas variaveis mencionadas.
   printf ("Qual o Estado da cidade escolhida? (Sem espaços)\n");
@@ -42,13 +38,10 @@ int main(){
  printf ("Produto Interno Bruto (PIB): %f\n", PIB1);
 
     //Variaveis da Carta 02 - para armazenar as informações das cartas, sera usado posteriormente.
-    char Estado2;
-    char Código2;
-    char Nome2;
-    int População2;
-    int Turisticos2;
-    float Area2;
-    float PIB2;
+    char Estado2, Nome2;
+    int Código2, População2, Turisticos2;
+    float Area2, PIB2;
+
 
  //Segunda carta - comando "&" para mudar as informações contidas nas variaveis mencionadas.
  printf ("\n Agora vamos repetir o processo para a Segunda Carta!\n");

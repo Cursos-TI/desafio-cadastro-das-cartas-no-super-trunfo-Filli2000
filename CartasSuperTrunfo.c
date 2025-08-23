@@ -5,12 +5,12 @@ int main(){
  //incio do jogo - introdução
  printf ("  Bem-vindo ao Super Trunfo 2000!\n Insira as informações solicitadas no prompt com a cidade Brasileira de sua escolha abaixo:\n");
 
-     //Variaveis da Carta 01
+     //Variaveis da Carta 01 - para armazenar as informações das cartas, sera usado posteriormente.
     char Estado1, Nome1;
     int Código1, População1, Turisticos1;
     float Area1, PIB1;
 
- //Primeira carta
+ //Primeira carta - comando "&" para mudar as informações contidas nas variaveis mencionadas.
   printf ("Qual o Estado da cidade escolhida? (Apenas uma letra de A até H)\n");
   scanf ("%c", &Estado1);
   printf ("Crie um código para a carta: (Letra do estado e um numero)\n");
@@ -26,7 +26,7 @@ int main(){
   printf ("PIB:\n");
   scanf ("%f", &PIB1);
 
- //Primeira carta - resultado
+ //Primeira carta - resultado - referencia as informações das variaveis da carta, definida pela sessão a cima
  printf ("\n Certo! Aqui estão as informações de sua primeira carta:\n");
  
  printf ("Estado: %s\n", Estado1);
@@ -37,12 +37,12 @@ int main(){
  printf ("Área: %f\n", Area1);
  printf ("Produto Interno Bruto (PIB): %f\n", PIB1);
 
-    //Variaveis da Carta 02
+    //Variaveis da Carta 02 - para armazenar as informações das cartas, sera usado posteriormente.
     char Estado2, Nome2;
     int Código2, População2, Turisticos2;
     float Area2, PIB2;
 
- //Segunda carta
+ //Segunda carta - comando "&" para mudar as informações contidas nas variaveis mencionadas.
  printf ("\n Agora vamos repetir o processo para a Segunda Carta!\n");
 
   printf ("Qual o Estado da cidade escolhida? (Apenas uma letra de A até H)\n");
@@ -60,7 +60,7 @@ int main(){
   printf ("PIB:\n");
   scanf ("%f", &PIB2);
 
-  //Segunda carta - resultado
+  //Segunda carta - resultado - referencia as informações das variaveis da carta, definida pela sessão a cima
  printf ("\n Certo! Aqui estão as informações de sua segunda carta:\n");
  
  printf ("Estado: %s\n", Estado2);
