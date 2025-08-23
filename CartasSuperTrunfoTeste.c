@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+/* Essa build é apenas para testar novos comandos e ajustar o código conforme necessario*/
+
 int main(){
 
  //incio do jogo - introdução
@@ -13,16 +15,22 @@ int main(){
  //Primeira carta - comando "&" para mudar as informações contidas nas variaveis mencionadas.
   printf ("Qual o Estado da cidade escolhida? (Sem espaços)\n");
   scanf ("%s", &Estado1);
+
   printf ("Crie um código para a carta:\n");
   scanf ("%s", &Codigo1);
+
   printf ("Nome da cidade:\n");
   scanf ("%s", &Nome1);
+
   printf ("População:\n");
   scanf ("%d", &Populacao1);
+
   printf ("Número de atrações turísticas:\n");
   scanf ("%d", &Turisticos1);
+
   printf ("Área em KM²:\n");
   scanf ("%f", &Area1);
+
   printf ("PIB:\n");
   scanf ("%f", &PIB1);
 
@@ -48,16 +56,22 @@ int main(){
 
   printf ("Qual o Estado da cidade escolhida? (Sem espaços)\n");
   scanf ("%s", &Estado2);
+
   printf ("Crie um código para a carta:\n");
   scanf ("%s", &Codigo2);
+
   printf ("Nome da cidade:\n");
   scanf ("%s", &Nome2);
+
   printf ("População:\n");
   scanf ("%d", &Populacao2);
+
   printf ("Número de atrações turísticas:\n");
   scanf ("%d", &Turisticos2);
+
   printf ("Área em KM²:\n");
   scanf ("%f", &Area2);
+  
   printf ("PIB:\n");
   scanf ("%f", &PIB2);
 
