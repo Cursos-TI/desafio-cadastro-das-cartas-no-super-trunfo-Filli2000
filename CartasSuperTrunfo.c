@@ -7,13 +7,13 @@ int main(){
 
      //Variaveis da Carta 01 - para armazenar as informações das cartas, sera usado posteriormente.
     char Estado1;
-    char Nome1 [20], Codigo1 [3];
+    char Nome1 [20], Codigo1 [4];
     int Populacao1, Turisticos1;
     float Area1, PIB1;
 
     //Variaveis da Carta 02 - para armazenar as informações das cartas, sera usado posteriormente.
     char Estado2;
-    char Nome2 [20], Codigo2 [3];
+    char Nome2 [20], Codigo2 [4];
     int Populacao2, Turisticos2;
     float Area2, PIB2;
 
@@ -49,6 +49,8 @@ int main(){
  printf ("Atrações Turísticas: %d\n", Turisticos1);
  printf ("Área: %f\n", Area1);
  printf ("Produto Interno Bruto (PIB): %f\n", PIB1);
+ printf ("Densidade Populacional: %f\n", Populacao1/Area1);
+ printf ("PIB per Capita: %f\n", PIB1/Populacao1);
 
  //Segunda carta - comando "&" para mudar as informações contidas nas variaveis mencionadas.
  printf ("\n Agora vamos repetir o processo para a Segunda Carta!\n \n");
@@ -84,6 +86,8 @@ int main(){
  printf ("Atrações Turísticas: %d\n", Turisticos2);
  printf ("Área: %f\n", Area2);
  printf ("Produto Interno Bruto (PIB): %f\n", PIB2);
+ printf ("Densidade Populacional: %f\n", Populacao2/Area2);
+ printf ("PIB per Capita: %f\n", PIB2/Populacao2);
 
  //Fim de jogo
  printf ("Obrigado por jogar!");
