@@ -89,6 +89,39 @@ int main(){
  printf ("Densidade Populacional: %f\n", Populacao2/Area2);
  printf ("PIB per Capita: %f\n", PIB2/Populacao2);
 
+  //Comparação entre as cartas
+ printf ("\n Agora vamos comparar as cartas!\n");
+    if (Populacao1 > Populacao2){
+        printf ("A cidade %s tem uma população maior que a cidade %s\n", Nome1, Nome2);
+    } else {
+        printf ("A cidade %s tem uma população maior que a cidade %s\n", Nome2, Nome1);
+    }
+    if (Turisticos1 > Turisticos2){
+        printf ("A cidade %s tem mais atrações turísticas que a cidade %s\n", Nome1, Nome2);
+    } else {
+        printf ("A cidade %s tem mais atrações turísticas que a cidade %s\n", Nome2, Nome1);
+    }
+    if (Area1 > Area2){
+        printf ("A cidade %s tem uma área maior que a cidade %s\n", Nome1, Nome2);
+    } else {
+        printf ("A cidade %s tem uma área maior que a cidade %s\n", Nome2, Nome1);
+    }
+    if (PIB1 > PIB2){
+        printf ("A cidade %s tem um PIB maior que a cidade %s\n", Nome1, Nome2);
+    } else {
+        printf ("A cidade %s tem um PIB maior que a cidade %s\n", Nome2, Nome1);
+    }
+    if ((Populacao1/Area1) > (Populacao2/Area2)){
+        printf ("A cidade %s tem uma densidade populacional maior que a cidade %s\n", Nome1, Nome2);
+    } else {
+        printf ("A cidade %s tem uma densidade populacional maior que a cidade %s\n", Nome2, Nome1);
+    }
+    if ((PIB1/Populacao1) > (PIB2/Populacao2)){
+        printf ("A cidade %s tem um PIB per capita maior que a cidade %s\n", Nome1, Nome2);
+    } else {
+        printf ("A cidade %s tem um PIB per capita maior que a cidade %s\n", Nome2, Nome1);
+    }
+
  //Fim de jogo
  printf ("Obrigado por jogar!");
 
